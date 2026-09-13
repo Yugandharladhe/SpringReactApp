@@ -1,0 +1,92 @@
+# =========================
+# Spring Boot / Java
+# =========================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+
+# =========================
+# IDE
+# =========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+
+# VS Code
+.vscode/
+
+
+# =========================
+# React / Node / Vite
+# =========================
+
+frontend/node_modules/
+node_modules/
+
+frontend/dist/
+dist/
+
+# Vite
+.vite/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+
+# =========================
+# Generated Spring Boot static files
+# =========================
+
+# React production build copied by build.cjs
+src/main/resources/static/*
+
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+application-local.properties
+application-local.yml
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# =========================
+# Docker
+# =========================
+
+docker-compose.override.yml
